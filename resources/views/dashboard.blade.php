@@ -48,54 +48,6 @@
                                 </td>
                                 <td>$245.30</td>
                             </tr>
-                            <tr>
-                                <td>
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/faces/face11.jpg" alt="image" />
-                                    <div class="table-user-name ml-3">
-                                    <p class="mb-0 font-weight-medium"> Ada Burgess </p>
-                                    <small>Email verified</small>
-                                    </div>
-                                </div>
-                                </td>
-                                <td>One page html</td>
-                                <td>
-                                <div class="badge badge-inverse-danger"> Completed </div>
-                                </td>
-                                <td>$ 160.25</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/faces/face13.jpg" alt="image" />
-                                    <div class="table-user-name ml-3">
-                                    <p class="mb-0 font-weight-medium"> Dollie Lynch </p>
-                                    <small>Email verified</small>
-                                    </div>
-                                </div>
-                                </td>
-                                <td>Wordpress</td>
-                                <td>
-                                <div class="badge badge-inverse-success"> Declined </div>
-                                </td>
-                                <td>$ 123.21</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/faces/face16.jpg" alt="image" />
-                                    <div class="table-user-name ml-3">
-                                    <p class="mb-0 font-weight-medium"> Harry Holloway </p>
-                                    <small>Payment on process</small>
-                                    </div>
-                                </div>
-                                </td>
-                                <td>VueJs Application</td>
-                                <td>
-                                <div class="badge badge-inverse-danger"> Declined </div>
-                                </td>
-                                <td>$ 150.00</td>
-                            </tr>
                             </tbody>
                         </table>
                     </div>
@@ -118,22 +70,7 @@
                             <h5 class="mb-0">$600/mo</h5>
                         </div>
                     </div>
-                    <div class="d-flex flex-wrap border-bottom py-2 justify-content-between">
-                        <img class="survey-img mb-lg-3" src="assets/images/dashboard/img_1.jpg" alt="" />
-                        <div class="pt-2">
-                            <h5 class="mb-0">Luxury villa in Hermo</h5>
-                            <p class="mb-0 text-muted">Glendale, CA</p>
-                            <h5 class="mb-0">$900/mo</h5>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-wrap border-bottom py-2 justify-content-between">
-                        <img class="survey-img mb-lg-3" src="assets/images/dashboard/img_2.jpg" alt=""/>
-                        <div class="pt-2">
-                            <h5 class="mb-0">House on the Clarita</h5>
-                            <p class="mb-0 text-muted">Business Survey</p>
-                            <h5 class="mb-0">$459/mo</h5>
-                        </div>
-                    </div>
+
                     <a class="text-black mt-3 d-block font-weight-medium h6" href="#">View all <i class="mdi mdi-chevron-right"></i></a>
                 </div>
             </div>

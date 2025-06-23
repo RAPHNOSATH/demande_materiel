@@ -31,7 +31,7 @@
             <li class="nav-item dropdown d-none d-sm-flex">
                 <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown">
                     <i class="mdi mdi-email-outline"></i>
-                    <span class="count count-varient2">5</span>
+                    <span class="count count-varient1">5</span>
                 </a>
                 <div class="dropdown-menu navbar-dropdown navbar-dropdown-large preview-list" aria-labelledby="messageDropdown">
                     <h6 class="p-3 mb-0">Messages</h6>
@@ -63,7 +63,7 @@
         <ul class="navbar-nav navbar-nav-right ml-lg-auto">
             <li class="nav-item nav-profile dropdown border-0">
                 <a class="nav-link dropdown-toggle profile-name" id="profileDropdown" href="#" data-toggle="dropdown">
-                    <img class="nav-profile-img mr-6 image" alt="" src="{{asset('images/faces/face1.jpg')}}" />
+                    <img class="nav-profile-img mr-6 image" alt="" src="{{asset('images/avatar.png')}}" />
                     <span class="profile-name">
                         @if(auth()->check())
                             {{Auth::user()->name}}

@@ -33,6 +33,9 @@
     align-items: center; /* Centre verticalement les éléments */
     gap: 8px; /* Espace entre l'image et le texte */
 }
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .count-indicator .count-varient1 {
+    background: #123B79 !important;
+}
 .nav-profile-img {
     width: 32px; /* Ajustez la taille de l'image selon vos besoins */
     height: 32px;
@@ -106,6 +109,11 @@
     margin-right: 10px !important;
     color: #009E49 !important;
 }
-
+.breadcrumb-item a{
+    color:#009E49 !important;
+}
+.badge-inverse-success:not(.badge-inverse-light) {
+    color: #009E49 !important;
+}
 
 
