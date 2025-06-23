@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="{{asset('typicons.font/font/typicons.css')}}">
         <link rel="stylesheet" href="{{asset('css/vertical-layout-light/style.css')}}">
         <link rel="stylesheet" href="{{asset('vendors/css/vendor.bundle.base.css')}}" />
-        <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
+        <link rel="shortcut icon" href="{{asset('images/logo.png')}}" />
         @vite(['resources/js/app.js'])
     </head>
 

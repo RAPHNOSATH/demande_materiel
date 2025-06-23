@@ -1,7 +1,6 @@
 <nav class="sidebar sidebar-offcanvas fixed" id="sidebar">
     <div class="text-center sidebar-brand-wrapper d-flex align-items-center">
-        <a class="sidebar-brand brand-logo" href="{{Route('dashboard')}}"><img src="{{asset('images/logo-mini.svg')}}" alt="logo" /></a>
-        <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="{{Route('dashboard')}}"></a>
+        <a class="sidebar-brand brand-logo" href="{{Route('dashboard')}}"><img class="image" src="{{asset('images/logo.png')}}" alt="logo" /></a>
     </div>
     <ul class="nav">
         <li class="nav-item">

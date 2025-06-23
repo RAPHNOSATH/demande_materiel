@@ -1,38 +1,60 @@
-.navbar-menu-wrapper {
-    background: #A2C5E2 !important; /* Couleur de fond de la barre de navigation */
-    background-color: #E0E2F1 !important; /* Couleur de fond de la barre de navigation */
+.navbar {
+    margin-left: 0px; /* Doit correspondre à la largeur de la sidebar pleine */
+    transition: margin-left 0.3s ease, width 0.3s ease; /* Animation fluide */
 }
-.nav-link.dropdown-toggle {
-    display: flex;
-    align-items: center; /* Centre verticalement les éléments */
-    gap: 8px; /* Espace entre l'image et le texte */
+.navbar .navbar-menu-wrapper {
+    color: #8e94a9;
+    width: calc(100% - 300px) !important;
+    background: #009E49 !important;
+    background-color: #009E49 !important;
+    margin-left: 40px;
 }
-
-.nav-profile-img {
-    width: 32px; /* Ajustez la taille de l'image selon vos besoins */
-    height: 32px;
-    border-radius: 50%; /* Pour une image circulaire, si désiré */
-}
-
-.profile-name {
-    font-size: 1rem; /* Ajustez la taille du texte selon vos besoins */
+.sidebar-icon-only .navbar {
+    left: 70px !important;
+    background: #009E49 !important;
+    background-color: #009E49 !important;
 }
 
-.dropdown-toggle i:before{
-    background: #F2F2F2 !important;
-}
 
+.navbar.toggled {
+    margin-left: 40px !important; /* Doit correspondre à la largeur de la sidebar réduite */
+
+}
 .navbar .navbar-menu-wrapper .navbar-toggler i:before {
-    background: #F2F2F2 !important;
-}
-.form-control {
     background: #F2F2F2 !important;
 }
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .input-group-text{
     background: #F2F2F2 !important;
 }
 
+
+.nav-link.dropdown-toggle {
+    display: flex;
+    align-items: center; /* Centre verticalement les éléments */
+    gap: 8px; /* Espace entre l'image et le texte */
+}
+.nav-profile-img {
+    width: 32px; /* Ajustez la taille de l'image selon vos besoins */
+    height: 32px;
+    border-radius: 50%; /* Pour une image circulaire, si désiré */
+}
+.profile-name {
+    font-size: 1rem; /* Ajustez la taille du texte selon vos besoins */
+    color: #F2F2F2 !important; /* Couleur du texte */
+}
+.dropdown-toggle i:before{
+    background: #F2F2F2 !important;
+}
+.form-control {
+    background: #F2F2F2 !important;
+    color:#8e94a9 !important;
+}
+
+
 /* Fixer la sidebar */
+.sidebar {
+    background: linear-gradient(to bottom, #FFF, #FFF) !important;
+}
 .sidebar.fixed {
     position: fixed;
     top: 0;
@@ -42,6 +64,18 @@
     z-index: 100; /* Assure que la sidebar est au-dessus du contenu */
     overflow-y: auto; /* Permet le défilement interne si le contenu est trop long */
     transition: width 0.3s ease; /* Animation fluide pour le changement de largeur */
+}
+.sidebar .nav {
+    margin-top: 30px !important; /* Espace entre le haut de la sidebar et les éléments de navigation */
+}
+.sidebar .sidebar-brand-wrapper .sidebar-brand .image {
+    z-index: 1000;
+    position: inherit;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 20%;
+    box-shadow: 0 5px 5px 0 rgba(44, 44, 44, 0.2);
+    margin-left: 40px !important;
 }
 
 /* Sidebar réduite (lorsque la classe 'toggled' ou similaire est ajoutée) */
@@ -55,24 +89,10 @@
     width: calc(100% - 260px) !important; /* Ajuste la largeur du contenu principal */
     transition: margin-left 0.3s ease, width 0.3s ease; /* Animation fluide */
 }
-
 /* Ajuster le contenu principal pour la sidebar réduite */
 .page-body-wrapper.toggled {
-    margin-left: 70px !important; /* Doit correspondre à la largeur de la sidebar réduite */
+    margin-left: 110px !important; /* Doit correspondre à la largeur de la sidebar réduite */
     width: calc(100% - 70px) !important; /* Ajuste la largeur du contenu principal */
-}
-
-/* Ajuster la navbar pour la sidebar pleine */
-.navbar {
-    margin-left: 0px; /* Doit correspondre à la largeur de la sidebar pleine */
-    width: calc(100% - 260px); /* Ajuste la largeur de la navbar */
-    transition: margin-left 0.3s ease, width 0.3s ease; /* Animation fluide */
-}
-
-/* Ajuster la navbar pour la sidebar réduite */
-.navbar.toggled {
-    margin-left: 0px; /* Doit correspondre à la largeur de la sidebar réduite */
-    width: calc(100% - 0px); /* Ajuste la largeur de la navbar */
 }
 
 .tab-content{
@@ -80,12 +100,11 @@
     border-right: 0px !important;
     border-bottom: 0px !important;
 }
-
-.menu-icons {
+.menu-icon {
     font-size: 20px !important;
     line-height: 1 !important;
     margin-right: 10px !important;
-    color: #423a8e !important;
+    color: #009E49 !important;
 }
 
 

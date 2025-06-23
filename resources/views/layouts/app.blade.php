@@ -13,7 +13,7 @@
 
         <link rel="stylesheet" href="{{asset('css/my_style.css')}}" />
         <link rel="stylesheet" href="{{asset('css/style.css')}}" />
-        <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
+        <link rel="shortcut icon" href="{{asset('images/logo.png')}}" />
         @vite(['resources/js/app.js'])
     </head>
     <body>
